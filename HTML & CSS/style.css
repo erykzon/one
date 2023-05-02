@@ -1,53 +1,48 @@
-body{
-    
+.titulo-principal{
+  padding-left: 30px;
 }
 
 #banner{
-    width:100%;
+  width:100%;
 }
 
 .principal{
-    background: #CCCCCC;
-    padding: 20px;
+  background: #CCCCCC;
+  padding: 20px;
 }
 
-h1{
-    text-align: center;
+.titulo-centralizado{
+  text-align: center;
 }
 
 p{
-    text-align: center;
+  text-align: center;
 }
 
 em strong{
-    color:red;
+  color:red;
 }
 
 #mision{
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-h2{
-    text-align: center;
+  background: #FFFFFF;
+  padding: 30px;
 }
 
 .items{
-    font-style: italic;
+  font-style: italic;
 }
 
 ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
 }
 
 .imagenDiferenciales{
-    width: 50%;
+  width: 50%;
 }
-
