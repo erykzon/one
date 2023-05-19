@@ -5,8 +5,63 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header>
+    <div class="caja">
+        <h1><img src="./img/logo.png"></h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <form action="">
+      <label for="nombreyapellido">Nombre y Apellido</label>
+      <input class="input-padron" type="text" name="" id="nombreyapellido">
+      <label for="correoelectronico">e-mail</label>
+      <input class="input-padron" type="text" name="" id="correoelectronico">
+      <label for="telefono">Telefono</label>
+      <input class="input-padron" type="text" name="" id="telefono">
+      <label for="mensaje ">Mensaje</label>
+      <textarea name="" id=""mensaje cols="70" rows="10"></textarea>
+      <div>
+
+      <p>Como te gustaria que te contactemos?</p>
+      <label for="radio-email"> 
+        <input type="radio" name="contacto" id="radio-email">Email</label>
+
+
+      <label for="radio-telefono">
+        <input type="radio" name="contacto" id="radio-telefono">Telefono</label>
+
+      <label for="radio-whatsapp">      
+        <input type="radio" name="contacto" id="radio-whatsapp">Whatsapp</label>
+          
+    </div>
+    <div>
+      <p>En que horaio prefiere ser atendido?</p>
+      <select name="" id="">
+        <option value="">Mañana</option>
+        <option value="">Tarde</option>
+        <option value="">Noche</option>
+      </select>
+    </div>
+      <label class="checkbox" for=""><input type="checkbox" name="" id="">Le gustaria recibir novedades de la Barberia Alura?</label>
+    
+      <input type="submit" value="Enviar">
+    </form>
+</main>
+<footer>
+    <img src="./img/logo-blanco.png">
+    <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
+</footer>  
 </body>
 </html>
