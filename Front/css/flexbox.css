@@ -11,10 +11,21 @@
   display: none;
 }
 
+.rodapie__container{
+  display: flex;
+/*   flex-direction: column;
+  flex-wrap: wrap; */
+  flex-flow: column wrap;
+}
+
 @media (min-width:834px) {
 
   /* Cabecera */
   .cabecera__buscar__item{
       display: block
+  }
+  /* Pide de pagina  */
+  .rodapie__container{
+    justify-content: space-between;
   }
 }
