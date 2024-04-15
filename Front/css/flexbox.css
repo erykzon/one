@@ -77,5 +77,19 @@
   .rodapie__container{
     justify-content: space-between;
   }
+}
+@media (min-width:1440px) {
+  .menu__container{
+    width: 239px;
+    overflow: scroll;
+  }
+  .menu__lista:nth-child(2),
+  .menu__lista:nth-child(3),
+  .menu__lista:nth-child(4){
+   display: flex; 
+  }
+.menu__lista{
+  height: auto;
+}
 
 }
