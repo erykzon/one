@@ -53,7 +53,12 @@
   flex-wrap: wrap; */
   flex-flow: column wrap;
 }
-
+/* videos */
+.videos__item{
+  height: 303px;
+  width: 280px;
+  
+}
 @media (min-width:834px) {
 
   /* Cabecera */
