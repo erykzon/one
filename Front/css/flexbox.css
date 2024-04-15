@@ -10,14 +10,20 @@
 .cabecera__buscar__item{
   display: none;
 }
-
+.menu__container{
+  position: fixed;
+  bottom: 0%;
+  height: 75px;
+  width: 100%;
+  
+}
 .superior__seccion__container {
   display: flex;
   align-items: center;
   white-space: nowrap;
   overflow: scroll;
   gap: 15px;
-  
+
 }
 .rodapie__container{
   display: flex;
