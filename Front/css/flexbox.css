@@ -11,6 +11,14 @@
   display: none;
 }
 
+.superior__seccion__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  gap: 15px;
+  
+}
 .rodapie__container{
   display: flex;
 /*   flex-direction: column;
