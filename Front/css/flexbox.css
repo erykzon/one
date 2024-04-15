@@ -19,6 +19,12 @@
 }
 .menu__lista{
   display: flex;
+  justify-content: space-between;
+  height: 100%;
+
+}
+.menu__lista li{
+  align-self: center;
 
 }
 .menu__lista:nth-child(2),
