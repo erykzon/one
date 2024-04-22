@@ -41,7 +41,8 @@
 
 .superior__seccion__container {
   display: flex;
-  align-items: center;
+  align-items: cen
+  ter;
   white-space: nowrap;
   overflow: scroll;
   gap: 15px;
