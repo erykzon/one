@@ -11,10 +11,11 @@ coloque nas sessões indicadas*/
    --cor-de-link: #000;
 }
 
+
+  
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -41,16 +42,78 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
 
+section.menu {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0 ;
+
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__list , .menu__list__item__contato { 
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    gap: 5px;
+}
+
+.menu__list__item{
+    margin: 0 19px;
+    gap: 15px;
 }
 
 /*Sección Title*/
 
 section.title{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0 ;
+    display: flex;
+    gap: 20px;
+
 
 }
-
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title__profile{
+    width: 30%;
+}
+.title__bio{
+    display: flex;
+    margin: 25px 0px;
+    flex-wrap: wrap;
+    font-family: ;
+    font-size: 52px;
+    font-weight: bold;
+}
+.title__subsection{
+    font-size: 22px;
+}
+.title__network{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
 /*Sección About*/
 
 section.about{
