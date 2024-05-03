@@ -59,6 +59,9 @@ https://en.bem.info/methodology/quick-start/*/
         align-items: center;
         justify-content: center;
     }
+    .menu__title{
+        margin: 20px;
+    }
     .menu__list , .menu__list__item__contato { 
         display: inline-flex;
         justify-content: space-between;
@@ -88,15 +91,17 @@ https://en.bem.info/methodology/quick-start/*/
         display: flex;
         flex-direction: row-reverse;
     }
+    .title__profile {
+        width: 30%;
+        border-radius: 50%;
+    }
     .title__container{
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .title__profile{
-        width: 30%;
-    }
+
     .title__bio{
         display: flex;
         margin: 25px 0px;
@@ -146,65 +151,113 @@ https://en.bem.info/methodology/quick-start/*/
         width: 140px;
     }
     /* Seccion skill */
-    section.skills{
+    .skills{
+    
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 180px;
-        margin: 10px ;
+        margin-bottom: 30px;
 
     }
-    .skills h3{
-        display: flex;
-        justify-content: center;
+    .skills__title{
         font-size: 32px;
         font-weight: bold;
+        margin-bottom: 20px;
     }
     .skills__line{
         display: flex;
+        justify-content: center;
         width: 80%;
-        height: 174px;
-        gap: 5px;
+        gap: 20px;
     }
     .skills__box{
-        display: flex;
-        align-items: end;
         width: 16.7%;
-        height: 100%;
+        height: 180px;
         background-color: white;
-    }
-    /*Sección Hobbies*/
-
-    section.hobbies{
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 180px;
-        margin: 10px ;
+        justify-content: flex-end;
     }
-    .hobbies h3{
-        display: flex;
-        justify-content: center;
-        font-size: 32px;
+    .skills__box ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills__img {
+        text-align: left;
+        padding: 13px;
+      }
+      
+      
+      .skills__name {
+        text-align: left;
+        padding: 10px;
+        font-size: 18px;
         font-weight: bold;
-    }
-    .hobbies__line{
-        display: flex;
-        width: 80%;
-        height: 174px;
-        gap: 5px;
-    }
-    .hobbies__box{
-        display: flex;
-        align-items: end;
-        width: 16.7%;
-        height: 100%;
-        background-color: white;  
-    }
+      }
+    /*Sección Hobbies*/
+
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  
+  .hobbies__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hobbies__line {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+  }
+  
+  .hobbies__box {
+    width: 16.7%;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .hobbies__box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hobbies__img {
+    text-align: left;
+    padding: 13px;
+  }
+  
+  
+  .hobbies__name {
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+    
     /* Experiencia Académica*/
 
     section.academic{
